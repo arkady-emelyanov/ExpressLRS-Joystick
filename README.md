@@ -1,16 +1,16 @@
 # ExpressLRS Joystick
 
-Use your ExpressLRS radio as a joystick for your PC/Mac simulator using an 
+Use your ExpressLRS 2.4GHz Radio as a joystick for your PC/Mac simulator using an 
 Arduino microcontroller and the actual ExpressLRS receiver.
 
 ## Why this project?
 
-To connect your radio as a joystick to your favourite simulator you basically limited
+To connect your radio to your favourite simulator you basically limited
 to the following options:
 
 - Using USB wire
 - [Bluetooth Joystick](https://oscarliang.com/expresslrs-bluetooth-joystick/)
-- [Betaflight Joystick](https://oscarliang.com/betaflight-fc-fpv-simulator/)
+- [Betaflight/FC Joystick](https://oscarliang.com/betaflight-fc-fpv-simulator/)
 
 This project provides another wireless connectivity option with the maximum rate of 500Hz (2ms).
 
