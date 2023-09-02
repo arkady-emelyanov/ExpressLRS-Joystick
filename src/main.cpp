@@ -28,7 +28,7 @@ void setup()
   gapTime = 0;
 
   // USB HID Device Settings
-  usb_hid.setPollInterval(2); // 
+  usb_hid.setPollInterval(2); // 2ms, 500Hz
   usb_hid.setReportDescriptor(desc_hid_report, sizeof(desc_hid_report));
   usb_hid.begin();
 
