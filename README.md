@@ -30,7 +30,20 @@ This project provides another wireless connectivity option with the maximum rate
 
 ![Wiring diagram](./wiring.png)
 
-## Flashing controller
+## Flashing controller (Windows)
+
+Connect SAMD21 controller to the Windows PC via USB.
+
+Install VSCode IDE and PlatformIO IDE extension:
+
+* https://code.visualstudio.com/
+* https://marketplace.visualstudio.com/items?itemName=platformio.platformio-ide
+
+Once installed, navigate to the PlatformIO tab and run `build` and `upload` tasks
+under "xaio-samd21 -> General".
+
+
+## Flashing controller (MacOS)
 
 Connect SAMD21 controller to the Mac via USB.
 Wait for the Arduino disk to mount and the yellow led to light up on the board.
