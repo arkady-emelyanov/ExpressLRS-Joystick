@@ -6,8 +6,8 @@ typedef struct __attribute__((packed)) gamepad_report_s {
 } gamepad_report_t;
 
 // joystick range
-#define HID_JOYSTICK_VALUE_MIN  0
-#define HID_JOYSTICK_VALUE_MAX  65535
+#define HID_JOYSTICK_VALUE_MIN -32767
+#define HID_JOYSTICK_VALUE_MAX  32767
 
 // HID extra axis
 #define HID_USAGE_DESKTOP_SLIDER1 0x36
